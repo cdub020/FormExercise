@@ -1,0 +1,42 @@
+<!--Create a new project on your computer that includes an index.html. 
+    In the file, write valid and semantic HTML that includes a form that 
+    has the following fields:
+
+Email
+Password
+Github Username
+Radio buttons with the following options: Enterprise, Pro, Free
+A checkbox with the words "Remember Me" next to it.-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>New User Form</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>New User Form</h1>
+    <form>
+        <label for="email">Email:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+
+        <label for="password">Password: </label>
+        <input type="text" id="lname" name="lname"><br><br>
+
+        <label for="ghub">Github Username:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        
+        <h3><u> License Type </u></h3>
+        <input type="radio" id="enterprise" name="license" value="enterprise">
+        <label for="enterprise">Enterprise</label><br>
+        <input type="radio" id="pro" name="license" value="pro">
+        <label for="pro">Pro</label><br>
+        <input type="radio" id="free" name="license" value="free">
+        <label for="free">Free</label><br><br>
+
+        <input type="checkbox" id="remember" name="rememberme" value="remember">
+        <label for="remember">Remember Me?</label><br>
+      </form>
+  </body>
+</html>
